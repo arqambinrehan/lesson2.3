@@ -4,6 +4,9 @@
 
 <script>
   export default {
-    props: ['message'],
+  props: ["message"],
+  created() {
+    console.log("CREATED!");
   }
+};
 </script>
